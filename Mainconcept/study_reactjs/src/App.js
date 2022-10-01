@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import React, { Suspense, lazy } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+const HelloWorld = lazy(() => import('./'));
 
 function App() {
   return (
@@ -17,7 +21,16 @@ function App() {
         >
           Learn React
         </a>
+        <a
+          className="App-link"
+          href="/helloworld"
+          rel="noopener noreferrer"
+        >
+          Go to hello world page
+        </a>
       </header>
+      
+      
     </div>
   );
 }
