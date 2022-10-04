@@ -7,6 +7,10 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
+
+/*We will import under this comment*/
+import TuanReactSpace from "./tuan/TuanReactSpace";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -14,6 +18,7 @@ root.render(
       <Routes>
         <Route path="/" element={ <App/>} />
         <Route path="/helloworld" element={ <div>Hello world!</div>} />
+        <Route path="/tuan-react-space" element={ <TuanReactSpace value="'hello'"/> } />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
