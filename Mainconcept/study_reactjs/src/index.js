@@ -10,15 +10,19 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 /*We will import under this comment*/
 import TuanReactSpace from "./tuan/TuanReactSpace";
+import OurReactSpace from "./oursWorking/OurReactSpace";
+import KhanhReact from "./khanh/KhanhReact";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={ <App/>} />
-        <Route path="/helloworld" element={ <div>Hello world!</div>} />
-        <Route path="/tuan-react-space" element={ <TuanReactSpace value="'hello'"/> } />
+        <Route path="/" element={<App />} />
+        <Route path="/helloworld" element={<div>Hello world!</div>} />
+        <Route path="/tuan-react-space" element={<TuanReactSpace value="'hello'" />} />
+        <Route path="/khanh-react" element={<KhanhReact value='hello' />} />
+        <Route path="/our-react-space" element={<OurReactSpace value="'hello'" />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
