@@ -1,4 +1,5 @@
 import CheckReadOnly from "./CheckReadOnly";
+import Calculator from "./LiftingStateUp";
 import PropsAreReadOnly from "./PropsAreReadOnly";
 
 
@@ -13,6 +14,8 @@ export default function OurReactSpace() {
             <PropsAreReadOnly user={child} />
             <hr />
             <CheckReadOnly user={child} />
+            <hr />
+            <Calculator />
         </div>
     )
 }
