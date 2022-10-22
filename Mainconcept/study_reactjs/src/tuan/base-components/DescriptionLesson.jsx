@@ -1,9 +1,5 @@
-function DescriptionLesson (){
-    return (
-        <div>
-            DescriptionLesson
-        </div>
-    )
+function DescriptionLesson(prop) {
+  return <div id={"t-description-container"}>{prop.description}</div>;
 }
 
-export default DescriptionLesson
+export default DescriptionLesson;

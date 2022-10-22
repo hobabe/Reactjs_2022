@@ -1,9 +1,9 @@
-import ReactLesson from "./base-components/ReactLesson"
+import ReactLesson from "./base-components/ReactLesson";
 
-export default function TuanReactSpace(){
-    return (
+export default function TuanReactSpace() {
+  return (
     <div>
-       <ReactLesson />
+      <ReactLesson />
     </div>
-    )
+  );
 }

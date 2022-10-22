@@ -39,3 +39,36 @@
 
 
 /* style of Tuan's space*/
+#t-react-lesson {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 60px;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+
+#t-lesson-list {
+  min-width: 300px;
+  width: 30%;
+  border: 1px solid gray;
+}
+
+#t-react-sample {
+  width: 70%;
+  border: 1px solid gray;
+}
+
+#t-render-lesson-container {
+  min-height: 400px;
+  border-bottom: 1px solid;
+}
+
+#t-description-container {
+  
+}
+
+
+.t-list {
+  list-style: auto;
+}
+
