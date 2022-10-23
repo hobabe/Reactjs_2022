@@ -35,3 +35,7 @@
   cursor: pointer;
   font-weight: bold;
 }
+
+pre {
+  white-space: pre-wrap;
+}
