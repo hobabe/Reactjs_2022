@@ -11,11 +11,15 @@
   min-width: 300px;
   width: 30%;
   border: 1px solid gray;
+  top: 0;
+  position: sticky;
+  height: max-content;
 }
 
 #t-react-sample {
   width: 70%;
   border: 1px solid gray;
+  padding: 0.2em;
 }
 
 #t-render-lesson-container {
@@ -38,4 +42,7 @@
 
 pre {
   white-space: pre-wrap;
+  margin: 1em;
+  padding: 1em;
+  box-shadow: 4px 4px 10px 0px #61dafb;
 }
