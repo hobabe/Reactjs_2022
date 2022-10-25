@@ -1,6 +1,7 @@
 
 import HelloWorld from "../react-lesson/t-1-hello-word/HelloWorld";
 import IntroducingJSX from "../react-lesson/t-2-IntroducingJSX/IntroducingJSX";
+import RenderingElements from "../react-lesson/t-3-rendering-elements/RenderingElements";
 
 export function reactLessonData(){
   return {
@@ -12,7 +13,7 @@ export function reactLessonData(){
         description: "'Hello world' will be rendered by render method of root element, this is so cool!" 
       },
       { component: <IntroducingJSX />, id: "IntroducingJSX", text: "Introducing JSX", description: "" },
-      { component: null, id: "RenderingElements", text: "Rendering Elements", description: "" },
+      { component: <RenderingElements />, id: "RenderingElements", text: "Rendering Elements", description: "" },
       { component: null, id: "ComponentsAndProps", text: "Components and Props", description: "" },
       { component: null, id: "StateAndLifecycle", text: "State and Lifecycle", description: "" },
       { component: null, id: "HandlingEvents", text: "Handling Events", description: "" },

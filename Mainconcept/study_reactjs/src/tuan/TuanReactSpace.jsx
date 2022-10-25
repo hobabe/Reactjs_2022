@@ -3,7 +3,7 @@ import "./TuanSpaceStyle.css";
 
 export default function TuanReactSpace() {
   return (
-    <div>
+    <div id={"t-space"}>
       <ReactLesson />
     </div>
   );
