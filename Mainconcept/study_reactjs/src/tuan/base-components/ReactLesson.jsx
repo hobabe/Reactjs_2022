@@ -11,7 +11,7 @@ class ReactLesson extends React.Component {
       reactLessonList: [],
       lessonActive: {
         id: "",
-        component: <WelcomeToReactLesson />,
+        component: null,
         description: "No description",
       },
       func: {
@@ -22,6 +22,7 @@ class ReactLesson extends React.Component {
 
     this.initData();
     this.initEvents();
+    this.InitWelcome();
   }
 
   initData() {
@@ -44,13 +45,18 @@ class ReactLesson extends React.Component {
         lessonActive: {
           id: foundBuiltLesson.id,
           component: foundBuiltLesson.component,
-          description: foundBuiltLesson.description ?? "This lesson is not built, please select other lesson",
+          description: foundBuiltLesson.description == "" ? "This lesson is not built, please select other lesson!" : foundBuiltLesson.description,
         },
       }));
     }
   }
 
+  InitWelcome(){
+    this.state.lessonActive.component = <WelcomeToReactLesson lessonList={this.state.reactLessonList}/>
+  }
+
   render() {
+
     return (
       <div>
         <div id={"t-react-lesson"}>

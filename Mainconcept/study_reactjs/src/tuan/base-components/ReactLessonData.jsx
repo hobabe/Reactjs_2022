@@ -22,7 +22,7 @@ export function reactLessonData(){
       { component: null, id: "Forms", text: "Forms", description: "" },
       { component: null, id: "LiftingStateUp", text: "Lifting State Up", description: "" },
       { component: null, id: "CompositionVsInheritance", text: "Composition vs Inheritance", description: "" },
-      { component: null, id: "ThinkingInReact", text: "Thinking In React", description: "" },
+      { component: null, id: "ThinkingInReact", text: "Thinking In React", description: "" }
     ]
   }
 }
