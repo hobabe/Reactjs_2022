@@ -1,0 +1,26 @@
+.style {
+
+    padding: 10px;
+    margin: 0px 50px;
+    box-shadow: 5px 5px 10px 5px #ccc;
+}
+
+.content {
+    border: 1px solid red;
+    margin-right: 60%;
+    padding-left: 10px;
+}
+
+.btn-handle {
+    padding: 10px;
+    color: aqua;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-handle:hover {
+    background-color: aqua;
+    color: red;
+}
