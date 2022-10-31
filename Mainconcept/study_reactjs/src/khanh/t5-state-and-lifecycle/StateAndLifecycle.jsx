@@ -25,9 +25,25 @@ const StateAndLifecycle = () => {
                     &lt;/div&gt;
                     );</label>
             </p>
-            <p className="content">
+            <div className="content">
                 <h3>Adding Local State to a Class</h3>
-            </p>
+            </div><br />
+            <div className="content">
+                <h3>Adding Lifecycle Methods to a Class</h3>
+                <strong>These methods are called “lifecycle methods”:</strong>
+                <p>componentDidMount() {"{"}  {"}"}: sẽ chạy lần đầu tiên khi ứng dụng được render</p>
+                <p>componentWillUnmount() {"{"}  {"}"}: sẽ chạy khi kết thúc quá trình</p>
+            </div><br />
+            <div className="content">
+                <h3>Using State Correctly</h3>
+                <strong>Do Not Modify State Directly</strong><br />
+                <strong>State Updates May Be Asynchronous</strong><br />
+                <strong>State Updates are Merged</strong><br />
+            </div><br />
+            <div className="content">
+                <h3>The Data Flows Down</h3>
+                <p>Một component có thể truyền State của nó xuống component con</p>
+            </div>
         </div>
     )
 }
