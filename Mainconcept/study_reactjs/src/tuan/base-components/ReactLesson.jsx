@@ -45,7 +45,7 @@ class ReactLesson extends React.Component {
         lessonActive: {
           id: foundBuiltLesson.id,
           component: foundBuiltLesson.component,
-          description: foundBuiltLesson.description == "" ? "This lesson is not built, please select other lesson!" : foundBuiltLesson.description,
+          description: foundBuiltLesson.component ? foundBuiltLesson.description : "This lesson is not built, please select other lesson!",
         },
       }));
     }
