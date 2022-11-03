@@ -47,10 +47,19 @@ pre {
   box-shadow: 4px 4px 10px 0px #61dafb;
 }
 
+p {
+  margin: 1px;
+  padding: 0.1em;
+}
+
 #t-space .context-body {
   padding-left: 1em;
 }
 
 .text-danger {
   color: red;
+}
+
+.b-beige {
+  background: beige;
 }
