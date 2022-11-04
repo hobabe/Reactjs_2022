@@ -4,6 +4,7 @@ import IntroducingJSX from "../react-lesson/t-2-IntroducingJSX/IntroducingJSX";
 import RenderingElements from "../react-lesson/t-3-rendering-elements/RenderingElements";
 import ComponentsAndProps from "../react-lesson/t-4-components-and-props/ComponentsAndProps";
 import StateAndLifecycle from "../react-lesson/t-5-state-and-lifecycle/StateAndLifecycle";
+import HandlingEvents from "../react-lesson/t-6-handling-events/HandlingEvents";
 
 export function reactLessonData(){
   return {
@@ -18,7 +19,7 @@ export function reactLessonData(){
       { component: <RenderingElements />, id: "RenderingElements", text: "Rendering Elements", description: "" },
       { component: <ComponentsAndProps />, id: "ComponentsAndProps", text: "Components and Props", description: "" },
       { component: <StateAndLifecycle />, id: "StateAndLifecycle", text: "State and Lifecycle", description: "" },
-      { component: null, id: "HandlingEvents", text: "Handling Events", description: "" },
+      { component: <HandlingEvents />, id: "HandlingEvents", text: "Handling Events", description: "" },
       { component: null, id: "ConditionalRendering", text: "Conditional Rendering", description: "" },
       { component: null, id: "ListsAndKeys", text: "Lists and Keys", description: "" },
       { component: null, id: "Forms", text: "Forms", description: "" },
