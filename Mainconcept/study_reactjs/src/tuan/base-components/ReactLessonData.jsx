@@ -5,6 +5,7 @@ import RenderingElements from "../react-lesson/t-3-rendering-elements/RenderingE
 import ComponentsAndProps from "../react-lesson/t-4-components-and-props/ComponentsAndProps";
 import StateAndLifecycle from "../react-lesson/t-5-state-and-lifecycle/StateAndLifecycle";
 import HandlingEvents from "../react-lesson/t-6-handling-events/HandlingEvents";
+import ConditionalRendering from "../react-lesson/t-7-conditional-rendering/ConditionalRendering";
 
 export function reactLessonData(){
   return {
@@ -20,7 +21,7 @@ export function reactLessonData(){
       { component: <ComponentsAndProps />, id: "ComponentsAndProps", text: "Components and Props", description: "" },
       { component: <StateAndLifecycle />, id: "StateAndLifecycle", text: "State and Lifecycle", description: "" },
       { component: <HandlingEvents />, id: "HandlingEvents", text: "Handling Events", description: "" },
-      { component: null, id: "ConditionalRendering", text: "Conditional Rendering", description: "" },
+      { component: <ConditionalRendering />, id: "ConditionalRendering", text: "Conditional Rendering", description: "" },
       { component: null, id: "ListsAndKeys", text: "Lists and Keys", description: "" },
       { component: null, id: "Forms", text: "Forms", description: "" },
       { component: null, id: "LiftingStateUp", text: "Lifting State Up", description: "" },
