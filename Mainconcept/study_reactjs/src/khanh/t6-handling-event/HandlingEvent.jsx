@@ -6,7 +6,7 @@ function HandlingEvent() {
 
     return (
         <div className="style">
-            <p className="content">
+            <div className="content">
                 <h1>Unit 6: Handling Event</h1>
                 <form onSubmit={handleSubmit}>
                     <button type="Submit" className="btn-handle">Bấm vào đây có điều vui lắm</button>
@@ -40,15 +40,15 @@ function HandlingEvent() {
                     &lt;/form&gt;<br />
                     );<br />
                     {"}"}</label>
-            </p>
-            <p className="content">
+            </div><br />
+            <div className="content">
                 <h3>Passing Arguments to Event Handlers</h3>
                 <p>Inside a loop, it is common to want to pass an extra parameter to an event handler.</p>
                 <p>
                     &lt;button onClick={"{(e) => this.deleteRow(id, e)}"}&gt;Delete Row&lt;/button&gt;<br />
                     &lt;button onClick={"{this.deleteRow.bind(this, id)}"}&gt;Delete Row&lt;/button&gt;
                 </p>
-            </p>
+            </div>
         </div>
     );
 }
