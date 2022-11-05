@@ -17,12 +17,15 @@ class Form extends React.Component {
                 <h1>Unit 9: Form</h1>
                 <div className="content">
                     <h3>Controlled Components</h3>
+                    <p>Đối với một controlled component, giá trị của input luôn luôn được điều khiển bởi state của React</p>
                 </div><br />
                 <div className="content">
                     <h3>The textarea Tag</h3>
+                    <p>Thuộc tính value không hỗ trợ trên textarea</p>
                 </div><br />
                 <div className="content">
                     <h3>The select Tag</h3>
+                    <p>Trong React, thay vì dùng thuộc tính selected, ta sẽ dùng thuộc tính value ở thẻ select.</p>
                     <select onchange={this.handleSelectTag} style={{ marginBottom: '10px' }}>
                         <option>Select 1</option>
                         <option>Select 2</option>

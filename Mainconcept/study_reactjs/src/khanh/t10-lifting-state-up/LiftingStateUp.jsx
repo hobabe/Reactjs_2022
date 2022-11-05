@@ -16,6 +16,7 @@ class LiftingStateUp extends React.Component {
                 </div><br />
                 <div className="content">
                     <h3>Lifting State Up</h3>
+                    <p>Để có thể chuyển trạng thái từ component con lên component cha thì component cha sẽ gửi quyền thay đổi trạng thái cho component con</p>
                 </div>
 
             </div>
