@@ -6,6 +6,7 @@ import ComponentsAndProps from "../react-lesson/t-4-components-and-props/Compone
 import StateAndLifecycle from "../react-lesson/t-5-state-and-lifecycle/StateAndLifecycle";
 import HandlingEvents from "../react-lesson/t-6-handling-events/HandlingEvents";
 import ConditionalRendering from "../react-lesson/t-7-conditional-rendering/ConditionalRendering";
+import ListsAndKeys from "../react-lesson/t-8-lists-and-keys/ListsAndKeys";
 
 export function reactLessonData(){
   return {
@@ -22,7 +23,7 @@ export function reactLessonData(){
       { component: <StateAndLifecycle />, id: "StateAndLifecycle", text: "State and Lifecycle", description: "" },
       { component: <HandlingEvents />, id: "HandlingEvents", text: "Handling Events", description: "" },
       { component: <ConditionalRendering />, id: "ConditionalRendering", text: "Conditional Rendering", description: "" },
-      { component: null, id: "ListsAndKeys", text: "Lists and Keys", description: "" },
+      { component: <ListsAndKeys />, id: "ListsAndKeys", text: "Lists and Keys", description: "" },
       { component: null, id: "Forms", text: "Forms", description: "" },
       { component: null, id: "LiftingStateUp", text: "Lifting State Up", description: "" },
       { component: null, id: "CompositionVsInheritance", text: "Composition vs Inheritance", description: "" },
