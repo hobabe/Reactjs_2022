@@ -1,11 +1,14 @@
 
 import HelloWorld from "../react-lesson/t-1-hello-word/HelloWorld";
+import LiftingStateUp from "../react-lesson/t-10-lifting-state-up/LiftingStateUp";
 import IntroducingJSX from "../react-lesson/t-2-IntroducingJSX/IntroducingJSX";
 import RenderingElements from "../react-lesson/t-3-rendering-elements/RenderingElements";
 import ComponentsAndProps from "../react-lesson/t-4-components-and-props/ComponentsAndProps";
 import StateAndLifecycle from "../react-lesson/t-5-state-and-lifecycle/StateAndLifecycle";
 import HandlingEvents from "../react-lesson/t-6-handling-events/HandlingEvents";
 import ConditionalRendering from "../react-lesson/t-7-conditional-rendering/ConditionalRendering";
+import ListsAndKeys from "../react-lesson/t-8-lists-and-keys/ListsAndKeys";
+import Forms from "../react-lesson/t-9-Forms/Forms";
 
 export function reactLessonData(){
   return {
@@ -22,9 +25,9 @@ export function reactLessonData(){
       { component: <StateAndLifecycle />, id: "StateAndLifecycle", text: "State and Lifecycle", description: "" },
       { component: <HandlingEvents />, id: "HandlingEvents", text: "Handling Events", description: "" },
       { component: <ConditionalRendering />, id: "ConditionalRendering", text: "Conditional Rendering", description: "" },
-      { component: null, id: "ListsAndKeys", text: "Lists and Keys", description: "" },
-      { component: null, id: "Forms", text: "Forms", description: "" },
-      { component: null, id: "LiftingStateUp", text: "Lifting State Up", description: "" },
+      { component: <ListsAndKeys />, id: "ListsAndKeys", text: "Lists and Keys", description: "" },
+      { component: <Forms />, id: "Forms", text: "Forms", description: "" },
+      { component: <LiftingStateUp />, id: "LiftingStateUp", text: "Lifting State Up", description: "" },
       { component: null, id: "CompositionVsInheritance", text: "Composition vs Inheritance", description: "" },
       { component: null, id: "ThinkingInReact", text: "Thinking In React", description: "" }
     ]
