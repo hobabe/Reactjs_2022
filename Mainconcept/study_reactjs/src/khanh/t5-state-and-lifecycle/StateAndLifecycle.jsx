@@ -10,11 +10,11 @@ const StateAndLifecycle = () => {
                 <p>
                     You can convert a function component like Clock to a class in five steps:<br />
 
-                    1.Create an ES6 class, with the same name, that extends React.Component.<br />
-                    2.Add a single empty method to it called render().<br />
-                    3.Move the body of the function into the render() method.<br />
-                    4.Replace props with this.props in the render() body.<br />
-                    5.Delete the remaining empty function declaration.
+                    1.Tạo một ES6 "class", cùng tên, cho nó "extends React.Component"<br />
+                    2.Thêm một phương thức render().<br />
+                    3.Di chuyển tất cả nội dung của function vào bên trong phương thức render()<br />
+                    4.Thay thế "props" thành "this.props" trong nội dung của render().<br />
+                    5.Xóa function rỗng mà ta đã lấy nội dung từ nó.
                 </p>
                 <label>class Clock extends React.Component {"{"}</label><br />
                 <label>render() {"{"}</label><br />
@@ -27,12 +27,15 @@ const StateAndLifecycle = () => {
             </p>
             <div className="content">
                 <h3>Adding Local State to a Class</h3>
+                <p>Thêm một class constructor có tham số truyền vào là props</p>
+                <p>Thêm 1 super(props) vào trong constructor</p>
+                <p>Tất cả state đều nằm trong constructor</p>
             </div><br />
             <div className="content">
                 <h3>Adding Lifecycle Methods to a Class</h3>
                 <strong>These methods are called “lifecycle methods”:</strong>
-                <p>componentDidMount() {"{"}  {"}"}: sẽ chạy lần đầu tiên khi ứng dụng được render</p>
-                <p>componentWillUnmount() {"{"}  {"}"}: sẽ chạy khi kết thúc quá trình</p>
+                <p>componentDidMount() {"{"}  {"}"}: chạy sau khi component đã được render vào trong DOM. </p>
+                <p>componentWillUnmount() {"{"}  {"}"}: chạy sau khi component kết thúc quá trình render.</p>
             </div><br />
             <div className="content">
                 <h3>Using State Correctly</h3>
