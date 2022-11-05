@@ -10,7 +10,7 @@ export default function UserInfo(props) {
             <Avatar avatar={avatar} />
             <Info user={user} />
 
-            <p className="content">
+            <div className="content">
                 <h3>
                     Function and Class Components
 
@@ -43,14 +43,14 @@ export default function UserInfo(props) {
                 <label>
                     {"}"}
                 </label>
-            </p>
-            <p className="content">
+            </div><br />
+            <div className="content">
                 <h3>Props are Read-Only</h3>
                 <strong>
                     React is pretty flexible but it has a single strict rule:<br />
                     All React components must act like pure functions with respect to their props.
                 </strong>
-            </p>
+            </div>
         </div>
     )
 }

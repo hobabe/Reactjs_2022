@@ -2,7 +2,7 @@ const StateAndLifecycle = () => {
     return (
         <div className="style">
             <h1>Unit 5: State and Lifecycle</h1>
-            <p className="content">
+            <div className="content">
 
                 <h3>
                     Converting a Function to a Class
@@ -24,7 +24,7 @@ const StateAndLifecycle = () => {
                     &lt;h2&gt;It is{"{this.props.date.toLocaleTimeString()}"} .&lt;/h2&gt;<br />
                     &lt;/div&gt;
                     );</label>
-            </p>
+            </div><br />
             <div className="content">
                 <h3>Adding Local State to a Class</h3>
                 <p>Thêm một class constructor có tham số truyền vào là props</p>
