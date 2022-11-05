@@ -9,6 +9,11 @@ class ComponentInheritance extends React.Component {
                 <h1>Unit 11: Component Inheritance</h1>
                 <div className="content">
                     <h3>Containment</h3>
+                    <p>Thay vì dùng component như:<br />
+                        {" <Component/>"}<br />
+                        ta có thể dùng cách khác như:<br />
+                        {"<Component>Nội dung</Component>"}
+                    </p>
                 </div><br />
                 <div className="content">
                     <h3>Specialization</h3>
