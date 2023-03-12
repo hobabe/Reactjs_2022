@@ -1,1 +1,0 @@
-cd Mainconcept\study_reactjs
