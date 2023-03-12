@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import React, { Suspense, lazy } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import PropsAreReadOnly from "./oursWorking/PropsAreReadOnly";
 
 const HelloWorld = lazy(() => import("./"));
@@ -14,22 +14,22 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+        <Link className="App-link" to="https://reactjs.org" target="_blank" rel="noopener noreferrer">
           Learn React
-        </a>
-        <a className="App-link" href="/helloworld" rel="noopener noreferrer">
+        </Link>
+        <Link className="App-link" to="/helloworld" rel="noopener noreferrer">
           Go to hello world page 1
-        </a>
-        <a className="App-link" href="/tuan-react-space">
+        </Link>
+        <Link className="App-link" to="/tuan-react-space">
           Go to Tuan's React
-        </a>
-        <a className="App-link" href="/khanh-react">
+        </Link>
+        <Link className="App-link" to="/khanh-react">
           Go to Khanh's React
-        </a>
+        </Link>
         <hr />
-        <a className="App-link" href="/our-react-space">
+        <Link className="App-link" to="/our-react-space">
           Go to Our React Space
-        </a>
+        </Link>
       </header>
     </div>
   );

@@ -4,7 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 
@@ -16,7 +16,7 @@ import KhanhReact from "./khanh/KhanhReact";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/helloworld" element={<div>Hello world!</div>} />
@@ -24,7 +24,7 @@ root.render(
         <Route path="/khanh-react" element={<KhanhReact value='hello' />} />
         <Route path="/our-react-space" element={<OurReactSpace value="'hello'" />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
