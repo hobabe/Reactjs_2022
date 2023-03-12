@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Reactjs_2022_release/static/css/main.47f78a8d.css",
-    "main.js": "/Reactjs_2022_release/static/js/main.c00aecba.js",
-    "static/js/787.24b12942.chunk.js": "/Reactjs_2022_release/static/js/787.24b12942.chunk.js",
-    "static/media/logo.svg": "/Reactjs_2022_release/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/Reactjs_2022_release/index.html",
-    "main.47f78a8d.css.map": "/Reactjs_2022_release/static/css/main.47f78a8d.css.map",
-    "main.c00aecba.js.map": "/Reactjs_2022_release/static/js/main.c00aecba.js.map",
-    "787.24b12942.chunk.js.map": "/Reactjs_2022_release/static/js/787.24b12942.chunk.js.map"
+    "main.css": "/Reactjs_2022/static/css/main.47f78a8d.css",
+    "main.js": "/Reactjs_2022/static/js/main.2e8df918.js",
+    "static/js/787.24b12942.chunk.js": "/Reactjs_2022/static/js/787.24b12942.chunk.js",
+    "static/media/logo.svg": "/Reactjs_2022/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Reactjs_2022/index.html",
+    "main.47f78a8d.css.map": "/Reactjs_2022/static/css/main.47f78a8d.css.map",
+    "main.2e8df918.js.map": "/Reactjs_2022/static/js/main.2e8df918.js.map",
+    "787.24b12942.chunk.js.map": "/Reactjs_2022/static/js/787.24b12942.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47f78a8d.css",
-    "static/js/main.c00aecba.js"
+    "static/js/main.2e8df918.js"
   ]
 }
